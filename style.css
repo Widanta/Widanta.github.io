@@ -1,0 +1,402 @@
+body {
+  height: auto;
+}
+
+.semua-judul {
+  font-size: 18px;
+  color: #e87c18;
+  font-family: "Poppins", sans-serif;
+}
+
+.semua-p {
+  font-size: 32px;
+  font-family: "kanit", sans-serif;
+}
+/* akhir semua/body */
+.navbar-color {
+  background-color: white;
+}
+
+#navbarNav ul li a {
+  color: #e87c18;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* akhir navbar */
+
+/* about */
+.judul-atas {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+.judul-about {
+  font-family: "kanit", sans-serif;
+  color: #e87c18;
+  font-size: 48px;
+}
+
+.p-about {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.btn-satu {
+  background-color: #e87c18;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-dua {
+  background-color: white;
+  border: 1px solid #e87c18;
+  font-family: "Poppins", sans-serif;
+}
+
+.model-img {
+  margin-top: 150px;
+}
+.model {
+  width: 350px;
+}
+/* akhir about */
+
+/* project */
+#project a img {
+  height: 600px;
+}
+
+.judul-project {
+  font-size: 24px;
+  color: #e87c18;
+}
+
+.p1-project {
+  font-family: "kanit", sans-serif;
+  color: black;
+  font-weight: 700;
+}
+
+.p2-project {
+  color: #8f8f8f;
+}
+/* akhir-project */
+
+/* services */
+.card-services {
+  width: 80px;
+  height: 80px;
+}
+
+.judul-services {
+  font-size: 20px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.p-services {
+  font-size: 16px;
+  color: #8f8f8f;
+  font-family: "Poppins", sans-serif;
+}
+/* akhir-services */
+
+/* skills */
+#skills .bar {
+  height: 30px;
+  background-color: white;
+  border: 0px solid white;
+  margin: 5px 0 20px 0;
+}
+.bar .nilai {
+  height: 30px;
+  line-height: 30px;
+  background-color: #e87c18;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-bar h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.figma {
+  width: 60%;
+  border-radius: 5px;
+}
+
+.bootstrap {
+  width: 30%;
+  border-radius: 5px;
+}
+
+.html {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.css {
+  width: 70%;
+  border-radius: 5px;
+}
+
+.js {
+  width: 20%;
+  border-radius: 5px;
+}
+
+.p-skills {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+/* akhir-skills */
+
+/* contact */
+.judul-contact {
+  font-size: 18px;
+  color: #e87c18;
+  font-family: "Poppins", sans-serif;
+}
+
+.p-judul-contact {
+  font-size: 32px;
+  font-family: "kanit", sans-serif;
+  margin-bottom: 50px;
+}
+
+.p-contact {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-map {
+  width: 100%;
+  height: 325px;
+  flex: 50%;
+  margin-top: 0px;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-kirim {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: #e87c18;
+  color: white;
+}
+/* akhir-contact */
+
+/* footer */
+#footer {
+  background-color: black;
+  height: 165px;
+  overflow: hidden;
+}
+
+#footer h2 {
+  color: white;
+  font-family: "kanit", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #e87c18;
+}
+
+.ceated-span {
+  color: white;
+}
+
+.love-span {
+  color: red;
+}
+
+.by-span {
+  color: white;
+}
+
+#footer .footer-img img {
+  height: 40px;
+}
+
+#footer .footer-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+#footer .footer-text p a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer .footer-text a {
+  text-decoration: none;
+}
+/* akhir footer */
+
+@media (max-width: 768px) {
+  .model {
+    width: 250px;
+    margin-top: 80px;
+  }
+
+  #footer {
+    background-color: black;
+  }
+
+  #footer h2 {
+    color: white;
+    font-family: "kanit", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e87c18;
+  }
+
+  #footer .footer-img img {
+    height: 25px;
+  }
+
+  #footer .footer-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: white;
+  }
+
+  #footer .footer-text p a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer .footer-text a {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    text-align: center;
+    margin: 0px auto;
+  }
+  p {
+    text-align: start;
+  }
+
+  h1 {
+    text-align: start;
+  }
+
+  h3 {
+    text-align: start;
+  }
+
+  .navbar-logo {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2px;
+  }
+
+  /* font */
+
+  .judul-about {
+    font-size: 36px;
+  }
+  .semua-judul {
+    font-size: 18px;
+    color: #e87c18;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .semua-p {
+    font-size: 32px;
+    font-family: "kanit", sans-serif;
+  }
+  /* akhir font */
+
+  .container-bar {
+    text-align: start;
+  }
+
+  .contact-map {
+    margin-bottom: 40px;
+  }
+
+  .skill-conten p {
+    margin: none;
+  }
+
+  .model {
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .btn-dua,
+  .btn-satu,
+  .btn-kirim {
+    font-size: 16px;
+  }
+
+  #footer {
+    background-color: black;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  #footer h2 {
+    color: white;
+    font-family: "kanit", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e87c18;
+  }
+
+  #footer .footer-img img {
+    height: 20px;
+  }
+
+  #footer .footer-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: white;
+  }
+
+  #footer .footer-text p a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer .footer-text a {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .judul-about {
+    font-size: 30px;
+  }
+  .btn-dua,
+  .btn-satu,
+  .btn-kirim {
+    font-size: 12px;
+  }
+}
+
+/* cara seting galery 
+untuk menghilangkan pading agar mendapatkan kelas div row untuk mengatur peding di kelas col-3nya menggunakan css seperti ini:
+#gallery .row > *{
+  padding:0;
+}
+
+artinya : cari element #section id gallery kemudian cari kelas row kemudian > *(apapun element yg ada setelah row) kemudian kalau sudah dapat baru berikan properti css
+
+*/

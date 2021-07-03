@@ -1,0 +1,253 @@
+.navbar-color {
+  background-color: white;
+}
+
+#navbarNav ul li a {
+  color: #e87c18;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* akhir navbar */
+
+/* header */
+.judul-atas {
+  font-family: "kanit", sans-serif;
+  font-size: 36px;
+  color: #e87c18;
+  font-weight: bold;
+}
+
+.sub-judul {
+  font-family: "kanit", sans-serif;
+  font-size: 32px;
+}
+
+.p-header {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.model-img {
+  margin-top: 100px;
+}
+.model {
+  width: 350px;
+}
+/* akhir header */
+
+/* content */
+
+#content {
+  margin-top: 100px;
+}
+.wadah {
+  background-color: #e87d1870;
+  border-radius: 15px;
+}
+
+.judul-contact {
+  font-size: 18px;
+  color: #e87c18;
+  font-family: "Poppins", sans-serif;
+}
+
+.p-judul-contact {
+  font-size: 32px;
+  font-family: "kanit", sans-serif;
+  margin-bottom: 50px;
+}
+
+.p-contact {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-kirim {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: #e87c18;
+  color: white;
+}
+
+/* footer */
+#footer {
+  background-color: black;
+  height: 165px;
+  overflow: hidden;
+}
+
+#footer h2 {
+  color: white;
+  font-family: "kanit", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #e87c18;
+}
+
+.ceated-span {
+  color: white;
+}
+
+.love-span {
+  color: red;
+}
+
+.by-span {
+  color: white;
+}
+
+#footer .footer-img img {
+  height: 40px;
+}
+
+#footer .footer-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+#footer .footer-text p a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer .footer-text a {
+  text-decoration: none;
+}
+/* akhir footer */
+
+/* resopnsive-screen */
+
+@media (max-width: 768px) {
+  .model {
+    width: 200px;
+    margin-top: 80px;
+  }
+  .wadah {
+    width: 90%;
+    height: auto;
+  }
+
+  button {
+    text-align: end;
+  }
+
+  .btn-kirim {
+    font-size: 16px;
+    text-align: end;
+  }
+
+  #footer {
+    background-color: black;
+  }
+
+  #footer h2 {
+    color: white;
+    font-family: "kanit", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e87c18;
+  }
+
+  #footer .footer-img img {
+    height: 25px;
+  }
+
+  #footer .footer-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: white;
+  }
+
+  #footer .footer-text p a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer .footer-text a {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    text-align: center;
+    margin: 0px auto;
+  }
+  p {
+    text-align: start;
+  }
+
+  h1 {
+    text-align: start;
+  }
+
+  h3 {
+    text-align: start;
+  }
+
+  .alert-success {
+    border-radius: 20px;
+  }
+
+  .p-contact {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    text-align: start;
+  }
+
+  .navbar-logo {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2px;
+  }
+
+  .model {
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .wadah {
+    width: 90%;
+    height: auto;
+  }
+
+  #footer {
+    background-color: black;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  #footer h2 {
+    color: white;
+    font-family: "kanit", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e87c18;
+  }
+
+  #footer .footer-img img {
+    height: 20px;
+  }
+
+  #footer .footer-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: white;
+  }
+
+  #footer .footer-text p a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #footer .footer-text a {
+    text-decoration: none;
+  }
+}
