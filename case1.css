@@ -1,6 +1,22 @@
-/* navbar */
+body {
+  height: auto;
+  background-color: rgb(245, 245, 245);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e87c18;
+  height: 5px;
+  border-radius: 15px;
+}
+
 .navbar-color {
-  background-color: white;
+  background-color: rgb(245, 245, 245);
 }
 
 #navbarNav ul li a {
@@ -13,20 +29,12 @@
 /* content */
 .inspirasi-img,
 .color-img,
-.icons-img {
-  width: 755px;
-}
-
-.jumbotron-img {
-  width: 755px;
-}
-
-.fiture-img {
-  width: 755px;
-}
-
+.icons-img,
+.jumbotron-img,
+.fiture-img,
 .hasil-img {
-  width: 755px;
+  width: 100%;
+  height: auto;
 }
 
 .judul-h1 {
@@ -62,6 +70,18 @@ p {
 /* akhir-content */
 
 /* responsive screen */
+
+@media (max-width: 1024px) {
+  .inspirasi-img,
+  .color-img,
+  .icons-img,
+  .jumbotron-img,
+  .fiture-img,
+  .hasil-img {
+    width: 100%;
+    height: auto;
+  }
+}
 
 @media (max-width: 768px) {
   .inspirasi-img,

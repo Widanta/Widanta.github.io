@@ -1,6 +1,18 @@
 body {
   height: auto;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(245, 245, 245);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e87c18;
+  height: 5px;
+  border-radius: 15px;
 }
 
 .semua-judul {
@@ -15,7 +27,7 @@ body {
 }
 /* akhir semua/body */
 .navbar-color {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(245, 245, 245);
 }
 
 #navbarNav ul li a {
@@ -48,7 +60,7 @@ body {
 }
 
 .btn-dua {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(245, 245, 245);
   border: 1px solid #e87c18;
   font-family: "Poppins", sans-serif;
 }
@@ -62,8 +74,18 @@ body {
 /* akhir about */
 
 /* project */
+
+/* test */
+.project-img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+/* test */
+
 #project a img {
-  height: 600px;
+  height: 500px;
 }
 
 .judul-project {
@@ -90,7 +112,7 @@ body {
 }
 
 .card-container {
-  width: 90%;
+  width: 100%;
   background-color: white;
   border-radius: 15px;
 }
@@ -144,7 +166,7 @@ body {
 
 #skills .bar {
   height: 30px;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(245, 245, 245);
   border: 0px solid white;
   margin: 5px 0 20px 0;
 }
@@ -197,7 +219,7 @@ body {
 
 /* contact */
 .form-control {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(245, 245, 245);
 }
 .judul-contact {
   font-size: 18px;
@@ -289,8 +311,13 @@ body {
     margin-top: 80px;
   }
 
+  #project a img {
+    height: 352px;
+  }
+
   .card-container {
     width: 100%;
+    height: 85%;
   }
 
   .card-skill {
@@ -301,6 +328,14 @@ body {
 
   .card-skill ::-webkit-scrollbar {
     display: none;
+  }
+
+  .judul-services {
+    font-size: 16px;
+  }
+
+  .p-services {
+    font-size: 14px;
   }
 
   #footer {
